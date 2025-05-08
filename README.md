@@ -23,7 +23,7 @@ This Terraform codebase provisions an app stack for running a containerized appl
 terraform init
 terraform plan -var 'acm_certificate_arn=arn:aws:acm:...' -out=tfplan
 terraform apply tfplan
-````
+```
 
 ## Inputs
 
